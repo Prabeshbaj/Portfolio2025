@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-apple-light text-apple-text;
+}
+
+/* Apple-style section transitions */
+section {
+  transition: background-color 0.3s ease;
+}
+
+/* Apple-style links */
+a {
+  @apply text-white transition-colors duration-200 no-underline;
+}
+
+a:hover {
+  @apply text-white/80;
+}
+
+/* Apple-style buttons */
+button {
+  @apply transition-all duration-200;
+}
+
+/* Apple-style headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold tracking-tight;
+}
+
+/* Apple-style paragraphs */
+p {
+  @apply leading-relaxed;
+}
+
+/* Apple-style container */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6;
+}
+
+/* Apple-style card */
+.card {
+  @apply bg-white rounded-xl shadow-apple p-6 transition-all duration-300 hover:shadow-lg;
+}
+
+/* Apple-style gradient backgrounds */
+.apple-gradient {
+  @apply bg-gradient-to-b from-apple-light to-apple-gray;
+}
+
+/* Apple-style animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.black-gradient {
+  background: #000000;
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  );
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  );
+}
+
+.violet-gradient {
+  background: #804dee;
+  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
