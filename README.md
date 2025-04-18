@@ -22,7 +22,7 @@ A modern, responsive portfolio website built with React and Tailwind CSS.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Prabeshbaj/Portfolio2025.git
 ```
 
 2. Install dependencies
@@ -51,6 +51,5 @@ src/
 
 ## Contact
 
-- Website: [your-website.com](https://your-website.com)
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- Email: your.email@example.com
+- GitHub: [github.com/Prabeshbaj](https://github.com/Prabeshbaj)
+- LinkedIn: [linkedin.com/in/prabeshbaj](https://linkedin.com/in/prabeshbaj)
